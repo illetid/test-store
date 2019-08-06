@@ -29,7 +29,7 @@ export default class BookstoreService {
         if (Math.random() > 0.75)
           return reject(
             new Error(
-              "It's a test error to prove error handling. Reload page to see app."
+              "Andruha Gusb."
             )
           );
         return resolve(this.data);
